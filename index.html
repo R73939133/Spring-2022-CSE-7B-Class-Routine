@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring 2022 CSE 7B Class Routine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Spring 2022 CSE 7B Class Routine</h1>
+            <h2>Northern University Of business and Technology Khulna</h2>
+            <h3>Department of Computer Science and Engineering</h3>
+            <div class="current-day" id="currentDay"></div>
+        </div>
+
+        <div class="day-selector">
+            <button class="day-btn" onclick="showDay('monday')">Monday</button>
+            <button class="day-btn" onclick="showDay('tuesday')">Tuesday</button>
+            <button class="day-btn" onclick="showDay('wednesday')">Wednesday</button>
+            <button class="day-btn" onclick="showDay('thursday')">Thursday</button>
+            <button class="day-btn" onclick="showDay('friday')">Friday</button>
+            <button class="day-btn" onclick="showDay('saturday')">Saturday</button>
+            <button class="day-btn" onclick="showDay('sunday')">Sunday</button>
+        </div>
+
+        <div class="schedule-container">
+            <div class="day-title" id="dayTitle">Select a day</div>
+            <div id="scheduleContent">
+                <div class="no-classes">Please select a day to view the schedule</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Developed by <a href="https://qknot.github.io/Portfolio/" style="color:rgb(255, 255, 255)">Rahul Ghosh</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+{
+    "monday": {
+        "day": "Monday",
+        "offDay": true,
+        "reason": "DEPARTMENT DAY OFF!"
+    },
+    "tuesday": {
+        "day": "Tuesday",
+        "classes": [
+            {
+                "time": "2:00 - 3:00 PM",
+                "subject": "CSE 4107",
+                "teacher": "AN",
+                "room": "Room 702"
+            },
+            {
+                "time": "3:00 - 4:00 PM",
+                "subject": "CSE 4108",
+                "teacher": "AN",
+                "room": "Lab - 1"
+            },
+            {
+                "time": "4:00 - 5:00 PM",
+                "subject": "CSE 4105",
+                "teacher": "MAH",
+                "room": "Room 702"
+            },
+            {
+                "time": "5:00 - 6:00 PM",
+                "subject": "CSE 4104",
+                "teacher": "MAH",
+                "room": "Lab - 2"
+            },
+            {
+                "time": "6:00 - 7:00 PM",
+                "subject": "CSE 4106",
+                "teacher": "MAH",
+                "room": "Lab - 2"
+            }
+        ]
+    },
+    "wednesday": {
+        "day": "Wednesday",
+        "classes": [
+            {
+                "time": "10:00 - 12:00 PM",
+                "subject": "CSE 4101",
+                "teacher": "MAI",
+                "room": "Room 509"
+            }
+        ]
+    },
+    "thursday": {
+        "day": "Thursday",
+        "offDay": true,
+        "reason": "NO CLASSES!"
+    },
+    "friday": {
+        "day": "Friday",
+        "offDay": true,
+        "reason": "WEEKLY DAY OFF!"
+    },
+    "saturday": {
+        "day": "Saturday",
+        "classes": [
+            {
+                "time": "2:00 - 4:00 PM",
+                "subject": "CSE 4111",
+                "teacher": "SMG",
+                "room": "Room 304"
+            },
+            {
+                "time": "4:00 - 5:00 PM",
+                "subject": "CSE 4112",
+                "teacher": "SMG",
+                "room": "Lab - 2"
+            }
+        ]
+    },
+    "sunday": {
+        "day": "Sunday",
+        "classes": [
+            {
+                "time": "2:00 - 3:00 PM",
+                "subject": "CSE 4107",
+                "teacher": "AN",
+                "room": "Room 703"
+            },
+            {
+                "time": "4:00 - 5:00 PM",
+                "subject": "CSE 4105",
+                "teacher": "MAH",
+                "room": "Room 706"
+            },
+            {
+                "time": "5:00 - 6:00 PM",
+                "subject": "CSE 4102",
+                "teacher": "MAI",
+                "room": "Lab - 1"
+            }
+        ]
+    }
+}
